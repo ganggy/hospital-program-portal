@@ -7,7 +7,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 3100;
+const PORT = process.env.PORT || 80;
 
 const DB_CONFIG = {
   host: process.env.DB_HOST || "192.168.2.254",
